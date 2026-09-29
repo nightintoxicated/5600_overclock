@@ -2,7 +2,25 @@
 ryzen 5 5600 overclock results
 gigabyte motherboard (b450m ds3h)
 
+optimal settings:
+
+see bottom
+
+all core frequency: 4300
+individual core frequency: 4649
+max stress test temp, 86C at 84W
+
+--------------------------------------------------
+
+
+
+
+
+
+
+
 the following progresses the journey of overclocking my 5600, you should assume at every step, everything changed before it applies, e.g. if i changed the curve, then next step changed something else, assume that the curve is still set to what it was previously.
+
 ------------------------------------------------------------------------------
 baseline results
 cpu max mhz: 4470
@@ -115,8 +133,15 @@ frequency average 4300 to 4322
     temp is between 86 and 87
     btop shows wattage at 85.5
 
-we have a good setting, now lets tery and dial in single core.
+we have a good setting, now lets try and dial in single core.
 we can increase the mhz and monitor the core with s-tui, while we run are single core stress test script, if we crash, we lower the mhz or back off curve optimizer
 
+frequency per single core with s-tui monitoring (using the script per core) is 4449 on every core.
+
+adding 200, lets see what happens:
+
+running individual core script and monitoring s-tui
+
+individual core showing as 4649
 
 
