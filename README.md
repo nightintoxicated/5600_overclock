@@ -103,6 +103,20 @@ brief min s-tui (stress):
     temp is between 86 and 87
     btop shows wattage at 85.5
 
+adding 100 mhz to cpu clock resulted in slightly lower frequency
+
+brief min s-tui (stress): 
+    frequency average 4300
+    temp is between 86 and 87
+    btop shows wattage at 85.5
+
+removing that 100 mhz so its set to no cpu clock increase, set curve to -25
+frequency average 4300 to 4322
+    temp is between 86 and 87
+    btop shows wattage at 85.5
+
+we have a good setting, now lets tery and dial in single core.
+we can increase the mhz and monitor the core with s-tui, while we run are single core stress test script, if we crash, we lower the mhz or back off curve optimizer
 
 
 
