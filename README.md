@@ -6,8 +6,8 @@ optimal settings:
 
 see bottom
 
-all core frequency: 4300
-individual core frequency: 4649
+all core frequency: 4299 (4.3ghz)
+individual core frequency: 4649 (4.65ghz)
 max stress test temp, 86C at 84W
 
 --------------------------------------------------
