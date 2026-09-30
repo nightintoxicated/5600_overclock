@@ -4,7 +4,7 @@ gigabyte motherboard (b450m ds3h)
 
 optimal settings:
 
-(ram) mit > xmp profile 1, multiplier 34
+(ram) mit > xmp profile 1, multiplier 36
 
 pbo advanced
 
