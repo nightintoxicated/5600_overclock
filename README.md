@@ -204,6 +204,35 @@ lowering ram to 36 (3600)
 
 5 min benchmark, cpu + ram, large, normal, variable, 1, auto, auto = passed
 
-30 min benchmark, memory, 90% avx2 fixed 6 threads = 
+30 min benchmark, memory, 90% avx2 fixed 6 threads = passed
+
+geekbench score test crashed the pc = crash
+
+re trying geekbench to try recreate the crash = re crash
+
+lowering ram to 35.33
+
+geekbench retry with lower ram = crash
+
+lowering ram to 34 
+
+geekbench retry with lower ram = crash
+
+set back to auto for ram
+
+geekbench retry = crash
+
+xmp off
+
+geekbench retry = crash, seeing if the issue is the cpu curve, changing from -25 to -20
+
+plan, run geekbench, then s-tui if geekbench is okay to see temps, and btop for cpu power usage
+
+geekbench = pass
+s-tui and btop look fine
+
+setting xmp to 3666 and retesting
+
+
 
 
