@@ -3,20 +3,27 @@ ryzen 5 5600 overclock results
 gigabyte motherboard (b450m ds3h)
 
 optimal settings:
-  (ram) mit > xmp profile 1, multiplier 34
-  (cpu) 
-    pbo advanced
-    pbo limits motherboard
-    curve optimiser all cores negative 25
-    cpu boost clock positive 200
+
+(ram) mit > xmp profile 1, multiplier 34
+
+pbo advanced
+
+pbo limits motherboard
+
+curve optimiser all cores negative 25
+
+cpu boost clock positive 200
 
 
 
-
+\------
 results:
-  all core frequency: 4299 (4.3ghz)
-  individual core frequency: 4649 (4.65ghz)
-  max stress test temp, 86C at 84W
+
+all core frequency: 4299 (4.3ghz)
+
+individual core frequency: 4649 (4.65ghz)
+
+max stress test temp, 86C at 84W
 
 \--------------------------------------------------
 
