@@ -37,13 +37,15 @@ individual core frequency: 4649 (4.65ghz)
 
 ----- stability (30 min tests) -----
 
-max stress test temp seen: 90C at 90W
+max stress test temp seen: 94.6C at 94.3W (mprime small fft, mhz went down to 4150)
 
 geekbench score:
 
 s-tui - yes 32 mins
 
-mprime
+mprime small FFTs - 
+
+mprime large FFTS - 
 
 memtest86
 
