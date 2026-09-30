@@ -32,16 +32,27 @@ all core frequency: 4299 (4.3ghz)
 
 individual core frequency: 4649 (4.65ghz)
 
-max stress test temp, 86C at 84W
+
+
+
+----- stability (30 min tests) -----
+
+max stress test temp seen: 86C at 84W
 
 geekbench score:
 
------ stability (30 min tests) -----
 s-tui
+
 mprime
+
 memtest86
+
 occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success
+
 occt-whateverelse
+
+
+
 
 \--------------------------------------------------
 
