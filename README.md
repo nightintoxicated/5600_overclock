@@ -298,6 +298,22 @@ geekbench = 2205 and 10625
 
 trying to move curve from -20 to -24
 
+geekbench = crash
+
+curve -23 crash
+
+geekbench = crash
+
+curve -22
+
+geekbench = 2208 and 10689
+geekbench run 2 = 2202 and 10674
+shell script = 
+gui stuff = 
+s-tui = 
+
+
+
 
 
 
