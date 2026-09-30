@@ -5,7 +5,7 @@ gigabyte motherboard (b450m ds3h)
 
 optimal settings:
 
-(ram) mit > xmp profile 1, multiplier to 3666 mhz
+(ram) mit > xmp profile 1, multiplier to 3600 mhz
 
 pbo advanced
 
@@ -174,7 +174,7 @@ individual core showing as 4649
 .
 
 
-ram investigation
+ram investigation (back to stock cpu for testing)
 
 xmp - 2800, no boot, requires cmos reset
 setting to 37.33 boots, running occt tests:
@@ -190,5 +190,20 @@ setting to 3666
 10 min benchmark, memory, legacy, avx2 + auto = passed
 
 10 min benchmark, memory, presets, heat = passed
+.
+.
+.
+
+(re clocking cpu to best findings so far and further tests)
+
+10 min benchmark, cpu + ram, large, normal, variable, 1, auto, auto = passed
+
+geekbench score test crashed the pc = crash
+
+lowering ram to 36 (3600)
+
+5 min benchmark, cpu + ram, large, normal, variable, 1, auto, auto = passed
+
+30 min benchmark, memory, 90% avx2 fixed 6 threads = 
 
 
