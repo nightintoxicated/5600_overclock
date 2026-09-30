@@ -1,10 +1,11 @@
 # 5600_overclock
-ryzen 5 5600 overclock results
+ryzen 5 5600
+
 gigabyte motherboard (b450m ds3h)
 
 optimal settings:
 
-(ram) mit > xmp profile 1, multiplier 36
+(ram) mit > xmp profile 1, multiplier to 3666 mhz
 
 pbo advanced
 
@@ -25,18 +26,27 @@ individual core frequency: 4649 (4.65ghz)
 
 max stress test temp, 86C at 84W
 
+geekbench score:
+
 \--------------------------------------------------
 
+.
 
+.
 
+.
 
+.
 
+.
 
+.
 
+.
 
 the following progresses the journey of overclocking my 5600, you should assume at every step, everything changed before it applies, e.g. if i changed the curve, then next step changed something else, assume that the curve is still set to what it was previously.
 
-------------------------------------------------------------------------------
+\------------------------------------------------------------------------------
 baseline results
 cpu max mhz: 4470
 
@@ -158,5 +168,27 @@ adding 200, lets see what happens:
 running individual core script and monitoring s-tui
 
 individual core showing as 4649
+------------
+.
+.
+.
+
+
+ram investigation
+
+xmp - 2800, no boot, requires cmos reset
+setting to 37.33 boots, running occt tests:
+
+10 min benchmark, memory, legacy, auto + auto = crash
+
+setting to 3666
+
+10 min benchmark, memory, legacy, auto + auto = passed
+
+10 min benchmark, memory, legacy, sse + auto = passed
+
+10 min benchmark, memory, legacy, avx2 + auto = passed
+
+10 min benchmark, memory, presets, heat = passed
 
 
