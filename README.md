@@ -22,7 +22,7 @@ pbo advanced
 
 pbo limits motherboard
 
-curve optimiser all cores negative -15 (experimental trying 17)
+curve optimiser all cores negative -15 (stable) (experimental trying -16)
 
 cpu boost clock positive 200
 
@@ -35,25 +35,25 @@ individual core frequency: 4649 (4.65ghz)
 
 
 
------ stability (30 min tests) -----
+----- stability -----
 
 max stress test temp seen: 94.6C at 94.3W (mprime small fft, mhz went down to 4150)
 
 geekbench score:
 
-s-tui - yes 32 mins
+(30 minute) s-tui - yes 32 mins
 
-mprime small FFTs - 
+(30 minute) mprime small FFTs - 
 
-mprime large FFTS - 
+(30 minute) mprime large FFTS - 
 
-memtest86
+(20 minute) memtest86
 
-shell script 1 - single core spc tests - passed
+(24 minute) shell script 1 - single core spc tests - passed
 
-shell script 2 - spike core tests - passed
+(2 minute) shell script 2 - spike core tests - passed
 
-occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success
+(30 minute) occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success +16
 
 occt-whateverelse
 
