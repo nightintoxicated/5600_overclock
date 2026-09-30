@@ -233,6 +233,14 @@ s-tui and btop look fine
 
 setting xmp to 3666 and retesting
 
+geekbench = crash
+
+setting xmp to 3400 and retesting
+
+geekbench = 2200 and 10642 (highest yet)
+
+testing occt memory, spike test 90% with 8 thread count
+
 
 
 
