@@ -333,8 +333,19 @@ curve -22
 geekbench = 2208 and 10689
 geekbench run 2 = 2202 and 10674
 shell script = passed
-gui stuff = 
-s-tui = 
+occt: 30 mins, cpu + ram, large, normal, variable, core cycling (all cores, 3 seconds, 2 threads) = instant fail
+changed curve to -20 and retry
+occt: repeat = again death
+memory frequency changed to 3333
+occt: repeat = again death
+set memory frequency back to standard xmp so only thing overclocked right now is cpu, and memory is only xmp overclocked
+occt: repeat = crashed
+dialing back overclock, cpu boost clock to 100, curve to -10
+occt was fine (ran for 20 mins)
+
+pushed cpu boost clock to 200 and curve to -15
+running occt core cycling test for half hour:
+
 
 
 
