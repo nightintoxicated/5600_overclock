@@ -266,12 +266,37 @@ geekbench = crash
 changed xmp to 34
 
 geekbench = 2201 and 10720
-re run geekbench, seems stable, running script for stress.sh
+re run geekbench, seems stable, running script for stress.sh = passed
+
+changed xmp to 34.66
+
+geekbench = 2205 and 10660 (second number lower than before, retrying)
+geekbench try 2 = 2201 and 10672
+
+changing back to 34, trying cas latency of 15
+
+geekbench = 2185 and 10706
+
+cas set to 14
+
+geekbench = 2163 and 10211 (lower)
+
+trying to up voltage of memory to 1.37
+
+geekbench = 2160 and 10179
+
+cas back to auto with xmp, voltage back to auto, trying with 10 pbo scalar
+
+geekbench = lower, removed pbo scalar.
 
 
+final values:
+mit > advanced memory settings > profile 1, 3400mhz
+peripherals > amd overclocking > pbo advanced, motherboard, curve optimizer -20, cpu boost 200
 
+geekbench = 2205 and 10625
 
-
+trying to move curve from -20 to -24
 
 
 
