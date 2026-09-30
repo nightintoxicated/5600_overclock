@@ -22,7 +22,7 @@ pbo advanced
 
 pbo limits motherboard
 
-curve optimiser all cores negative -15
+curve optimiser all cores negative -15 (experimental trying 17)
 
 cpu boost clock positive 200
 
