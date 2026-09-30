@@ -47,7 +47,7 @@ geekbench score:
 
 (24 minute) shell script 1 - single core spc tests - passed 🟢
 
-(2 minute) shell script 2 - spike core tests - passed 🟢
+(2 minute) shell script 2 - spike core tests - passed 🟢 
 
 (30 minute) occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success +16 confirmed 🟢 🟡
 
