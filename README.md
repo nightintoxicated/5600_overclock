@@ -3,28 +3,24 @@
 hardware
 -----------------------------------------------
 
-ryzen 5 5600
-
-gigabyte motherboard (b450m ds3h WIFI)
-
-bios version F4b / 07/31/2024 8A16BG0X
-
-rtx 4060
+ryzen 5 5600 + (b450m ds3h WIFI) [ bios version F6c / 08/18/2026 8A16BG0X ] + rtx 4060
 
 
 -----------------------------------------------
 personal optimal bios settings for cpu and ram:
 -----------------------------------------------
 
-mit > xmp profile 1, multiplier to 3200 mhz
+[ mit ] xmp profile 1, multiplier to 3200 mhz ⭐
 
-pbo advanced
+[ other tab ] 
 
-pbo limits motherboard
+pbo = advanced ⭐
 
-curve optimiser all cores negative -15 (stable) (experimental trying -16)
+pbo limits = motherboard ⭐
 
-cpu boost clock positive 200
+curve optimiser = all cores, negative, -15 (stable) 🟢 (experimental trying -16 🟡) ⭐
+
+cpu boost clock = positive, 200 ⭐
 
 ----- results -----
 
@@ -41,7 +37,7 @@ max stress test temp seen: 94.6C at 94.3W (mprime small fft, mhz went down to 41
 
 geekbench score:
 
-(30 minute) s-tui - yes 32 mins
+(30 minute) s-tui - yes 32 mins 🟢
 
 (30 minute) mprime small FFTs - 
 
@@ -49,11 +45,11 @@ geekbench score:
 
 (20 minute) memtest86
 
-(24 minute) shell script 1 - single core spc tests - passed
+(24 minute) shell script 1 - single core spc tests - passed 🟢
 
-(2 minute) shell script 2 - spike core tests - passed
+(2 minute) shell script 2 - spike core tests - passed 🟢
 
-(30 minute) occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success +16
+(30 minute) occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success +16 confirmed 🟢 🟡
 
 occt-whateverelse
 
