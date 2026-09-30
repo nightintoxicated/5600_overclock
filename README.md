@@ -37,15 +37,19 @@ individual core frequency: 4649 (4.65ghz)
 
 ----- stability (30 min tests) -----
 
-max stress test temp seen: 86C at 84W
+max stress test temp seen: 90C at 90W
 
 geekbench score:
 
-s-tui
+s-tui - yes 32 mins
 
 mprime
 
 memtest86
+
+shell script 1 - single core spc tests - passed
+
+shell script 2 - spike core tests - passed
 
 occt / cpu+ram / large, normal, variable, core cycling, 3s, 2TpC = success
 
@@ -362,7 +366,7 @@ dialing back overclock, cpu boost clock to 100, curve to -10
 occt was fine (ran for 20 mins)
 
 pushed cpu boost clock to 200 and curve to -15
-running occt core cycling test for half hour:
+running occt core cycling test for half hour: success
 
 
 
