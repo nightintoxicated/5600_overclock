@@ -1,7 +1,8 @@
 # 5600_overclock
 ryzen 5 5600
 
-gigabyte motherboard (b450m ds3h)
+gigabyte motherboard (b450m ds3h WIFI)
+bios version F4b / 07/31/2024 8A16BG0X
 
 optimal settings:
 
@@ -237,9 +238,35 @@ geekbench = crash
 
 setting xmp to 3400 and retesting
 
-geekbench = 2200 and 10642 (highest yet)
+<<<<< geekbench = 2200 and 10642 (highest yet) >>>>>
 
-testing occt memory, spike test 90% with 8 thread count
+
+setting xmp to 36  and retesting
+
+geekbench = crash
+
+setting xmp to 35.33 and retesting
+
+geekbench = 2207 and 10736
+
+going to try update bios a second, done
+
+before: bios version F4b / 07/31/2024 8A16BG0X
+after: bios version F6c / 08/18/2026 8A16BG0X
+
+boot with no bios tweaks set to check alls okay, done
+
+re set the bios tweaks for cpu, memory
+
+memory xmp = 35.33, motherboard, -20 curve, 200 boost clock
+
+geekbench = crash
+
+changed xmp to 34
+
+
+
+
 
 
 
