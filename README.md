@@ -1,26 +1,32 @@
 # 5600_overclock
+-----------------------------------------------
+hardware
+-----------------------------------------------
 
 ryzen 5 5600
+
 gigabyte motherboard (b450m ds3h WIFI)
+
 bios version F4b / 07/31/2024 8A16BG0X
+
 rtx 4060
 
-optimal bios settings for cpu and ram:
 
-(ram) mit > xmp profile 1, multiplier to 3600 mhz
+-----------------------------------------------
+personal optimal bios settings for cpu and ram:
+-----------------------------------------------
+
+mit > xmp profile 1, multiplier to 3400 mhz
 
 pbo advanced
 
 pbo limits motherboard
 
-curve optimiser all cores negative 25
+curve optimiser all cores negative -22
 
 cpu boost clock positive 200
 
-
-
-\------
-results:
+----- results -----
 
 all core frequency: 4299 (4.3ghz)
 
@@ -46,10 +52,28 @@ geekbench score:
 
 .
 
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
 the following progresses the journey of overclocking my 5600, you should assume at every step, everything changed before it applies, e.g. if i changed the curve, then next step changed something else, assume that the curve is still set to what it was previously.
 
 \------------------------------------------------------------------------------
+
 baseline results
+
 cpu max mhz: 4470
 
 full stress per core (spc.sh): passed (full script)
@@ -308,7 +332,7 @@ curve -22
 
 geekbench = 2208 and 10689
 geekbench run 2 = 2202 and 10674
-shell script = 
+shell script = passed
 gui stuff = 
 s-tui = 
 
