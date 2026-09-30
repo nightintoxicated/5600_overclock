@@ -1,10 +1,11 @@
 # 5600_overclock
-ryzen 5 5600
 
+ryzen 5 5600
 gigabyte motherboard (b450m ds3h WIFI)
 bios version F4b / 07/31/2024 8A16BG0X
+rtx 4060
 
-optimal settings:
+optimal bios settings for cpu and ram:
 
 (ram) mit > xmp profile 1, multiplier to 3600 mhz
 
@@ -263,6 +264,10 @@ memory xmp = 35.33, motherboard, -20 curve, 200 boost clock
 geekbench = crash
 
 changed xmp to 34
+
+geekbench = 2201 and 10720
+re run geekbench, seems stable, running script for stress.sh
+
 
 
 
